@@ -32,16 +32,12 @@
     box-sizing: border-box;
 }
 
-
-
 .container {
     max-width: 1080px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    
- 
 }
 
 header {
@@ -97,7 +93,6 @@ header img {
     width: 50px;
     background-color: rgba(100, 173, 87, 0.501);
 }
-
 
 .sociais button {
     width: 40px;
@@ -219,7 +214,7 @@ main {
     
 }
 
-main  h1 {
+main h1 {
     background-image: linear-gradient(to right, rgb(195, 194, 194), rgb(222, 222, 222));
     color: var(--cor1);
     font-family: var(--fonte-destaque2);
@@ -278,9 +273,7 @@ div.video > iframe {
     left: 1%;
     background-color: white;
     width: 97%;
-    height: 95%;
-    
-    
+    height: 95%;   
 }
 
 footer {
