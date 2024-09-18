@@ -41,40 +41,23 @@ section.normal {
 }
 
 section.imagem {
-    background-color: rgba(49, 49, 49, 0.437);
-    color: white;
+    background-color: rgba(255, 255, 255, 0.437);    
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.474);
     background-attachment: fixed;
     height: 200px;
 }
 
+
 section.imagem > p {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.514);
+    color: black;
     text-shadow: 1px 1px 0px black;
 }
 
-section#img1_01 {
-    background-image: url(../historias/cristal_guerra/Imagens/cristal.jpg);
+section#img {
     background-position: center center;
     background-size: cover;
 
-}
-
-section#img1_02 {
-    background-image: url(../imagens/rei.jpg);
-    background-size: cover;
-}
-
-section#img2_01 {
-    background-image: url(../imagens/chuva-de-flechas.webp);
-    background-position: center center;
-    background-size: cover;
-
-}
-
-section#img2_02 {
-    background-image: url(../imagens/fim.jpg);
-    background-size: cover;
 }
