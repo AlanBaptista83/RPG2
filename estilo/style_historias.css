@@ -17,7 +17,6 @@ html, body {
     min-height: 100vh;
     background-color: white;
     font-family: var(--fonte1);
-    
 }
 
 section {
@@ -40,24 +39,29 @@ section.normal {
     
 }
 
+section.normal li {
+    margin-left: 40px;
+}
+
 section.imagem {
     background-color: rgba(255, 255, 255, 0.437);    
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.474);
     background-attachment: fixed;
-    height: 200px;
+    height: 150px;
 }
 
-
+/* Colocar imagem transparencia e texto não */
+/* 
 section.imagem > p {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.514);
     color: black;
     text-shadow: 1px 1px 0px black;
-}
+} */
 
 section#img {
     background-position: center center;
-    background-size: cover;
-
+    background-size: contain;       
+    
 }
