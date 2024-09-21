@@ -63,5 +63,5 @@ section.imagem > p {
 section#img {
     background-position: center center;
     background-size: contain;       
-    
+    background-repeat: no-repeat;
 }
