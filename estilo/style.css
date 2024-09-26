@@ -262,6 +262,7 @@ main li {
 
 main p#centro {
     text-align: center;
+    text-indent: 0px;
 }
 
 main a#aventura {
