@@ -65,3 +65,39 @@ section#img {
     background-size: contain;       
     background-repeat: no-repeat;
 }
+
+.seguir {
+    background-color: lightgrey;
+    color: rgb(170, 2, 2);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.seguir:hover {
+    background-color: rgba(58, 57, 57, 0.655);
+    color: rgb(230, 0, 0);
+}
+
+.seguir:active {
+    background-color: rgb(49, 3, 3);
+    transform: scale(0.97);
+}
+
+.seguir a {
+    text-decoration: none;
+    color: rgb(170, 2, 2);
+    font-weight: bold
+}
+
+.fim {
+    font-size: 3rem;
+    font-weight: bold;
+}

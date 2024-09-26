@@ -2,12 +2,16 @@ const menuDiv = document.getElementById('menu-mobile')
 const btnAnimar = document.getElementById('btn-menu')
 // const lista = document.querySelectorAll('.lista')
 
-// menuDiv.addEventListener('click', animarMenu)
+menuDiv.addEventListener('click', animarMenu)
 
 function animarMenu(){
     menuDiv.classList.toggle('abrir')
     btnAnimar.classList.toggle('ativar')
 }
+
+document.getElementById('btn-menu').addEventListener('click', function() {
+    document.body.classList.toggle('no-scroll');
+});
 
 // function ativaLink(){
 //     for(let i of lista){
